@@ -2,3 +2,31 @@
     padding-right: calc((100% - 1200px)/2);
     padding-left: calc((100% - 1200px)/2);
 }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+}
+
+.logo {
+    margin-top: 88px;
+    font-size: 27.15px;
+    line-height: 32.85px;
+    font-weight: 400;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 49px;
+}
+
+.menu-link {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 19.78px;
+    font-weight: 400;
+    margin-left: 40px;
+}
