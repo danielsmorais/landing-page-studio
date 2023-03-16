@@ -1,9 +1,4 @@
 .container {
-    padding-right: calc((100% - 940px)/2);
-    padding-left: calc((100% - 940px)/2);
-
-}
-
-.header p{
-    text-align: justify;
+    padding-right: calc((100% - 1200px)/2);
+    padding-left: calc((100% - 1200px)/2);
 }
