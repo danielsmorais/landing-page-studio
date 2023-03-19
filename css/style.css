@@ -20,6 +20,11 @@ body {
 }
 
 .logo {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.1472px;
+    line-height: 33px;
     margin-top: 88px;
     font-size: 27.15px;
     line-height: 32.85px;
@@ -34,6 +39,8 @@ body {
 
 .menu-link {
     display: inline-block;
+    font-style: normal;
+    font-weight: bold;
     font-size: 16px;
     line-height: 19.78px;
     font-weight: 400;
