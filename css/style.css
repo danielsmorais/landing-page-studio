@@ -26,9 +26,6 @@ body {
     font-size: 27.1472px;
     line-height: 33px;
     margin-top: 88px;
-    font-size: 27.15px;
-    line-height: 32.85px;
-    font-weight: 400;
 }
 
 .menu {
@@ -42,7 +39,96 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 19.78px;
+    line-height: 20px;   
+    letter-spacing: 0.01em;
+    margin-left: 55px;
+    color: black;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.subtitle {
+    font-style: normal;
     font-weight: 400;
-    margin-left: 40px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #565656;
+    margin-bottom: 53px;
+}
+
+.button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.065em;
+    color: white;
+    padding: 20px 40px;
+    background: #2639ED;
+    border-radius: 60px;
+    position: relative;
+}
+
+.hero-content {
+    position: relative;
+    width: 471px;
+}
+
+.hero-image-content {
+    position: relative;
+    max-width: 0px;
+    height: 512px;
+}
+
+.hero-image {
+    position: absolute;
+    left: 104px;
+    top: 0px;
+    width: 754px;
+    height: 512px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0px 0px 0px 200px;
+}
+
+.circle {
+    position: absolute;
+    left: calc(104px - 129px/2);
+    top: 0px;
+    width: 129px;
+    height: 129px;
+    background:#DAE9FF;
+    border-radius: 50%;
+}
+
+.retangle {
+    position: absolute;
+    left: 560px;
+    top: 430px;
+    width: 178px;
+    height: 178px;
+    background: #FFF5DB;
+    border-radius: 0px 0px 50% 0px;
+}
+
+.dot {
+    position: absolute;
+    left: -53px;
+    top: 230px;
+    width: 404px;
+    height: 154px;
+    background-image: url("../img/dot-ornament.svg");
+    /* filter: invert(); */
 }
